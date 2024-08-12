@@ -1,0 +1,48 @@
+[0.245s] Invoking command in '/home/min/dev_ws/ros/build/my_first_package_msgs': CMAKE_PREFIX_PATH=/home/min/dev_ws/ros/src/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/min/dev_ws/ros/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/min/dev_ws/ros/install/my_first_package_msgs
+[0.258s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.353s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.356s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.566s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.566s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.567s]   my_first_package_msgs --arguments-file
+[0.567s]   /home/min/dev_ws/ros/build/my_first_package_msgs/rosidl_adapter__arguments__my_first_package_msgs.json
+[0.567s]   --output-dir
+[0.567s]   /home/min/dev_ws/ros/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs
+[0.567s]   --output-file
+[0.567s]   /home/min/dev_ws/ros/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs.idls)
+[0.567s]   returned error code 1:
+[0.567s] 
+[0.567s]   Traceback (most recent call last):
+[0.567s] 
+[0.567s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.567s]       return _run_code(code, main_globals, None,
+[0.567s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.567s]       exec(code, run_globals)
+[0.567s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.567s]       sys.exit(main())
+[0.567s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.567s]       abs_idl_file = convert_to_idl(
+[0.567s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.568s]       return convert_msg_to_idl(
+[0.568s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.568s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.568s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.568s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.568s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.568s]       self.base_type = BaseType(
+[0.568s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.568s]       raise InvalidResourceName(
+[0.568s] 
+[0.568s]   rosidl_adapter.parser.InvalidResourceName: 'cmdAndPoseVel' is an invalid
+[0.568s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.568s] 
+[0.568s] Call Stack (most recent call first):
+[0.568s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.568s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.568s] 
+[0.568s] [0m
+[0.568s] -- Configuring incomplete, errors occurred!
+[0.569s] See also "/home/min/dev_ws/ros/build/my_first_package_msgs/CMakeFiles/CMakeOutput.log".
+[0.571s] Invoked command in '/home/min/dev_ws/ros/build/my_first_package_msgs' returned '1': CMAKE_PREFIX_PATH=/home/min/dev_ws/ros/src/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/min/dev_ws/ros/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/min/dev_ws/ros/install/my_first_package_msgs

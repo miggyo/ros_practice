@@ -1,0 +1,30 @@
+[0.593s] Invoking command in '/home/min/dev_ws/ros/src/my_first_package': PYTHONPATH=/home/min/dev_ws/ros/build/my_first_package/prefix_override:/home/min/dev_ws/ros/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/min/dev_ws/ros/build/my_first_package/build install --record /home/min/dev_ws/ros/build/my_first_package/install.log --single-version-externally-managed install_data
+[0.826s] running egg_info
+[0.827s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.827s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.827s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.827s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.827s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[0.829s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.830s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.830s] running build
+[0.830s] running build_py
+[0.830s] copying my_first_package/my_publisher.py -> /home/min/dev_ws/ros/build/my_first_package/build/lib/my_first_package
+[0.830s] running install
+[0.830s] running install_lib
+[0.831s] copying /home/min/dev_ws/ros/build/my_first_package/build/lib/my_first_package/my_publisher.py -> /home/min/dev_ws/ros/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.832s] byte-compiling /home/min/dev_ws/ros/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_publisher.py to my_publisher.cpython-310.pyc
+[0.832s] running install_data
+[0.832s] running install_egg_info
+[0.833s] removing '/home/min/dev_ws/ros/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.834s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/min/dev_ws/ros/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[0.834s] running install_scripts
+[0.850s] Installing dist_turtle_action_server script to /home/min/dev_ws/ros/install/my_first_package/lib/my_first_package
+[0.851s] Installing my_first_node script to /home/min/dev_ws/ros/install/my_first_package/lib/my_first_package
+[0.851s] Installing my_multi_thread script to /home/min/dev_ws/ros/install/my_first_package/lib/my_first_package
+[0.851s] Installing my_publisher script to /home/min/dev_ws/ros/install/my_first_package/lib/my_first_package
+[0.851s] Installing my_service_server script to /home/min/dev_ws/ros/install/my_first_package/lib/my_first_package
+[0.851s] Installing my_subscriber script to /home/min/dev_ws/ros/install/my_first_package/lib/my_first_package
+[0.851s] Installing turtle_cmd_and_pose script to /home/min/dev_ws/ros/install/my_first_package/lib/my_first_package
+[0.851s] writing list of installed files to '/home/min/dev_ws/ros/build/my_first_package/install.log'
+[0.868s] Invoked command in '/home/min/dev_ws/ros/src/my_first_package' returned '0': PYTHONPATH=/home/min/dev_ws/ros/build/my_first_package/prefix_override:/home/min/dev_ws/ros/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/min/dev_ws/ros/build/my_first_package/build install --record /home/min/dev_ws/ros/build/my_first_package/install.log --single-version-externally-managed install_data
